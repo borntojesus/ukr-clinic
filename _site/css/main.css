@@ -195,7 +195,7 @@ h1 { margin-bottom: 30px; }
 
 .navigation__logo { color: #fff; max-width: 130px; }
 
-.navigation__nav { display: flex; position: absolute; margin: 0; top: 100%; left: 0; background: #fff; width: 100%; justify-content: center; align-items: center; flex-direction: column; transition: 0.3s; height: 0; overflow: hidden; }
+.navigation__nav { display: flex; position: absolute; margin: 0; top: 100%; left: 0; width: 100%; justify-content: center; align-items: center; flex-direction: column; transition: 0.3s; height: 0; overflow: hidden; }
 
 .navigation.is-active .navigation__nav { height: calc( 100vh - 90px); }
 
