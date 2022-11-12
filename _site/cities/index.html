@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="ru-UA">
+<head>
+    <title>
+        cities
+    </title>
+    <link rel="stylesheet" href="/css/main.css">
+</head>
+<body>
+<!--navigation&#45;&#45;right-->
+<div class="navigation">
+    <div class="container">
+        <div class="navigation__wrapper">
+            <div class="navigation__logo">
+                <a href="/" class="navigation__logo">
+                    <img src="/images/logo-light.svg" alt="">
+                </a>
+            </div>
+            <ul class="navigation__nav">
+                <li class="navigation__li">
+                    <a href="/clinics" class="navigation__link">
+                        Клініки
+                    </a>
+                </li>
+                <li class="navigation__li">
+                    <a href="/clinics" class="navigation__link">
+                        Діагностичні центри
+                    </a>
+                </li>
+                <li class="navigation__li">
+                    <a href="/doctors" class="navigation__link">
+                        Лікарі
+                    </a>
+                </li>
+                <li class="navigation__li">
+                    <a href="/diseases/" class="navigation__link">
+                        Лікування
+                    </a>
+                </li>
+                <li class="navigation__li">
+                    <a href="/blog/" class="navigation__link">
+                        Статті
+                    </a>
+                </li>
+                <li class="navigation__li">
+                    <a href="/contact-us/" class="navigation__link">
+                        Contact us
+                    </a>
+                </li>
+            </ul>
+            <div class="navigation__cta">
+                <button class="button button--light"> Call back</button>
+            </div>
+            <div class="navigation__burger">
+                <span class="navigation__burger-item"></span>
+                <span class="navigation__burger-item"></span>
+                <span class="navigation__burger-item"></span>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<script>
+    const hamburger = document.querySelector(".navigation__burger");
+    const navMenu = document.querySelector(".navigation");
+
+    hamburger.addEventListener("click", mobileMenu);
+
+    function mobileMenu() {
+        hamburger.classList.toggle("is-active");
+        navMenu.classList.toggle("is-active");
+    }
+</script>
+        <section>
+    <div class="container">
+        <h1>
+             Кращі клініки і Лікарі по містам
+        </h1>
+</section>
+
+<section class="footer">
+    <div class="container">
+        <a href="/" class="footer__logo">
+                <img src="/images/logo-light.svg" alt="">
+        </a>
+    </div>
+</section>
+</body>
+</html>
+
+
+

@@ -1,0 +1,22 @@
+.tooltip {
+  background: orange;
+
+  color: #fff;
+  position: absolute;
+  top: 32px;
+  z-index: 3;
+  padding: 6px 12px;
+  border-radius: 6px;
+  display: none;
+  &::before {
+    content: '';
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 10px 10px 10px;
+    top: -10px;
+    left: 20px;
+    position: absolute;
+    border-color: transparent transparent orange transparent;
+  }
+}

@@ -1,0 +1,562 @@
+.page-wrapper {
+  width: 100%;
+}
+
+.container {
+  width: 100%;
+}
+
+.hero-section {
+  width: 100%;
+}
+.hero-section__block {
+  width: 100%;
+  min-height: 100vh;
+  background-image: linear-gradient(rgba(17, 93, 186, 0.476), transparent), url(../img/HeaderBackground.jpg);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.hero-section__block-content {
+  height: 40vh;
+}
+.hero-section__title {
+  text-align: center;
+  display: block;
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 52px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  color: #FFFFFF;
+}
+.hero-section__subtitle {
+  text-align: center;
+  display: block;
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 28px;
+  letter-spacing: 0.31em;
+  margin-bottom: 50px;
+  color: #FFFFFF;
+}
+.hero-section__input {
+  width: 100%;
+}
+.hero-section__scrolldown {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+  position: absolute;
+  top: 85%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  letter-spacing: 0.2em;
+  color: #FFFFFF;
+}
+
+.hero-section__input {
+  position: relative;
+}
+.hero-section__input-button__content {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 140px;
+  height: 50px;
+  display: flex;
+  font-size: 14px;
+  justify-content: center;
+  align-items: center;
+  margin-right: 0.5em;
+  margin-top: 0.5em;
+  padding: 15px;
+  background: #5373FD;
+  color: #ffffff;
+  font-size: 14px;
+  border: none;
+}
+
+.search-icon {
+  margin-top: 5px;
+  margin-right: 12px;
+}
+
+#input {
+  width: 650px;
+  height: 60px;
+  max-width: 100%;
+  padding-left: 20px;
+}
+
+#input::-moz-placeholder {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  /* identical to box height, or 143% */
+  letter-spacing: 0.2em;
+  /* Text Grey */
+  color: #999999;
+}
+
+#input:-ms-input-placeholder {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  /* identical to box height, or 143% */
+  letter-spacing: 0.2em;
+  /* Text Grey */
+  color: #999999;
+}
+
+#input::placeholder {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  /* identical to box height, or 143% */
+  letter-spacing: 0.2em;
+  /* Text Grey */
+  color: #999999;
+}
+
+.container {
+  max-width: 100%;
+  width: 1320px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  box-sizing: border-box;
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #5373FD;
+}
+.navigation-logo {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  /* or 117% */
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  /* White */
+  color: #FFFFFF;
+}
+.navigation-logo span {
+  display: block;
+  margin: auto auto;
+}
+.navigation-menu {
+  display: flex;
+  list-style: none;
+}
+.navigation-wrapper {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0px;
+  z-index: 2;
+  width: 100%;
+  background-color: #5373FD;
+}
+.navigation-menu li {
+  font-family: "Aleo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  color: #FFFFFF;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  line-height: 20px;
+  margin-left: 40px;
+}
+
+.brown-bg-section__wrapper {
+  background-image: url(../img/WhyBackground.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top left;
+  height: 67vh;
+  width: 100%;
+}
+.brown-bg-section__main {
+  display: flex;
+  height: 67vh;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+}
+.brown-bg-section__text {
+  width: 60%;
+}
+.brown-bg-section__text h2 {
+  /* Heading 2 */
+  font-family: "Aleo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 40px;
+  /* identical to box height, or 111% */
+  text-transform: capitalize;
+  /* White */
+  color: #FFFFFF;
+}
+.brown-bg-section__text span {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 28px;
+  /* or 175% */
+  letter-spacing: 0.1em;
+  /* White */
+  color: #FFFFFF;
+}
+.brown-bg-section__images {
+  width: 40%;
+}
+.brown-bg-section__upper-image {
+  width: 350px;
+  height: 220px;
+}
+.brown-bg-section__down-image {
+  width: 350px;
+  height: 220px;
+  margin-left: 50px;
+  margin-top: 15px;
+}
+.brown-bg-section__button {
+  background: #5373FD;
+  color: white;
+  height: 60px;
+  padding: 20px 32px;
+  border: none;
+  font-family: "Aleo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.subtext {
+  display: inline-block;
+  margin: 30px 0;
+}
+
+.steps-section {
+  background-color: #333333;
+}
+.steps-section__wrapper {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 40vh;
+}
+.steps-section__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
+  width: 33%;
+}
+.steps-section__title {
+  display: flex;
+  align-items: center;
+  font-family: "Aleo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 40px;
+  /* identical to box height, or 111% */
+  text-align: center;
+  text-transform: capitalize;
+  /* White */
+  color: #FFFFFF;
+}
+
+.lines:before {
+  display: block;
+  content: "";
+  height: 300px;
+  width: 100%;
+  border-top: 1px dashed #FFFFFF;
+  border-radius: 50%;
+  position: relative;
+  /* left: 300px; */
+  left: -50%;
+  top: 200px;
+}
+
+.lines:after {
+  display: block;
+  content: "";
+  width: 100%;
+  height: 300px;
+  border-top: 1px dashed #FFFFFF;
+  border-radius: 50%;
+  position: relative;
+  right: -50%;
+  top: -260px;
+}
+
+.house-bg-section__wrapper {
+  width: 100%;
+  background-image: url(../img/house.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top left;
+  height: 67vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.house-bg-section__card {
+  background-color: rgba(35, 35, 35, 0.9);
+  padding: 44px 0px 44px 32px;
+  width: 650px;
+  max-width: 100%;
+  height: 345px;
+  max-height: 100%;
+  margin-top: 50px;
+}
+
+.card__subtext {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 28px;
+  /* identical to box height, or 140% */
+  letter-spacing: 0.1em;
+  /* White */
+  color: #FFFFFF;
+  margin-bottom: 16px;
+}
+.card__title {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  /* identical to box height, or 140% */
+  text-transform: uppercase;
+  /* White */
+  color: #FFFFFF;
+  margin-bottom: 16px;
+}
+.card__text {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 28px;
+  /* or 175% */
+  letter-spacing: 0.1em;
+  /* White */
+  color: #FFFFFF;
+  margin-bottom: 24px;
+}
+.card__button-text {
+  width: 215px;
+  height: 60px;
+  background-color: #5373FD;
+  color: white;
+  font-family: "Aleo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  /* identical to box height, or 125% */
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+}
+
+.spain-bg-section__wrapper {
+  width: 100%;
+  background-image: url(../img/spain.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top left;
+  height: 67vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.spain-bg-section__card {
+  background-color: rgba(35, 35, 35, 0.9);
+  padding: 44px 0px 44px 32px;
+  width: 650px;
+  max-width: 100%;
+  height: 345px;
+  max-height: 100%;
+  margin-left: auto;
+  margin-top: 50px;
+}
+
+.card__subtext {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 28px;
+  /* identical to box height, or 140% */
+  letter-spacing: 0.1em;
+  /* White */
+  color: #FFFFFF;
+  margin-bottom: 16px;
+}
+.card__title {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  /* identical to box height, or 140% */
+  text-transform: uppercase;
+  /* White */
+  color: #FFFFFF;
+  margin-bottom: 16px;
+}
+.card__text {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 28px;
+  /* or 175% */
+  letter-spacing: 0.1em;
+  /* White */
+  color: #FFFFFF;
+  margin-bottom: 24px;
+}
+.card__button-text {
+  width: 215px;
+  height: 60px;
+  background-color: #5373FD;
+  color: white;
+  font-family: "Aleo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  /* identical to box height, or 125% */
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+}
+
+.grey-bg-section__wrapper {
+  width: 100%;
+  background-image: url(../img/BG.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right;
+  height: 67vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.grey-bg-section__title {
+  font-family: "Aleo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 40px;
+  /* identical to box height, or 111% */
+  text-transform: capitalize;
+  /* White */
+  color: #FFFFFF;
+  width: 375px;
+  margin: 0 auto;
+  margin-bottom: 60px;
+}
+.grey-bg-section__card {
+  display: flex;
+}
+.grey-bg-section__card-text {
+  box-sizing: border-box;
+  background-color: #333333;
+  padding: 30px 65px 30px 65px;
+  height: 275px;
+}
+
+.quote-icon {
+  margin-right: 5px;
+}
+
+.footer {
+  width: 100%;
+  background-color: #000000;
+}
+.footer-wrapper__content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.footer__title {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  /* identical to box height, or 117% */
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  /* White */
+  color: #FFFFFF;
+}
+.footer__subtitle {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  /* identical to box height, or 143% */
+  letter-spacing: 0.2em;
+  /* White */
+  margin-top: 10px;
+  color: #FFFFFF;
+}
+.footer__icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.svg-icon {
+  margin-top: 20px;
+  margin-left: 15px;
+  margin-right: 15px;
+}/*# sourceMappingURL=main.css.map */

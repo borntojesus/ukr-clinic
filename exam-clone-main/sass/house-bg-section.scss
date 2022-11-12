@@ -1,0 +1,95 @@
+.house-bg-section {
+
+    &__wrapper {
+        width: 100%;
+        background-image: url(../img/house.jpg);
+
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: top left;
+        height: 67vh;
+        width: 100%;
+        display: flex;
+        align-items: center;
+    }
+    &__card {
+        background-color:rgba(35, 35, 35, 0.9);
+        padding: 44px 0px 44px 32px;
+   
+        width: 650px;
+        max-width: 100%;
+        height: 345px;
+        max-height: 100%;
+        margin-top: 50px;
+    }
+}
+.card {
+
+    &__subtext {
+        font-family: 'Josefin Sans';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 20px;
+        line-height: 28px;
+        /* identical to box height, or 140% */
+
+        letter-spacing: 0.1em;
+
+        /* White */
+
+        color: #FFFFFF;
+        margin-bottom: 16px;
+
+    }
+    &__title {
+        font-family: 'Josefin Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 28px;
+        /* identical to box height, or 140% */
+
+        text-transform: uppercase;
+
+        /* White */
+
+        color: #FFFFFF;
+        margin-bottom: 16px;
+
+    }
+    &__text {
+        font-family: 'Josefin Sans';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 28px;
+        /* or 175% */
+
+        letter-spacing: 0.1em;
+
+        /* White */
+
+        color: #FFFFFF;
+        margin-bottom: 24px;
+
+    }
+ 
+    &__button-text {
+        width: 215px;
+        height: 60px;
+        background-color: #5373FD;
+        color: white;
+
+        font-family: 'Aleo';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+        /* identical to box height, or 125% */
+        
+        
+        letter-spacing: 0.07em;
+        text-transform: uppercase;
+        // display: block
+    }
+}

@@ -1,0 +1,131 @@
+.navigation {
+  background: $colorDefault;
+  color: #fff;
+  box-shadow: 2px 5px 31px 3px rgba(0,0,0,0.23);
+  position: relative;
+  top: 0;
+  z-index: 11;
+
+  .container {
+    padding-top: 0;
+    padding-bottom: 0;
+    margin: 0 auto;
+  }
+  &__logo {
+    color: #fff;
+    max-width: 130px;
+  }
+  &__nav {
+    display: flex;
+    position: absolute;
+    margin: 0;
+    top: 100%;
+    left: 0;
+    background-image: url(https://www.creativefabrica.com/wp-content/uploads/2021/07/31/Pink-and-Grey-Rain-Drops-Background-Graphics-15297729-1.jpg);
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transition: 0.3s;
+    height: 0;
+    overflow: hidden;
+  }
+  &.is-active &__nav {
+    height: calc( 100vh - 90px);
+
+  }
+  &__nav-sub {
+  }
+  &__li {
+    list-style: none;
+  }
+  &__li--colored {
+
+  }
+  &__link {
+    font-size: 18px;
+    padding: 20px;
+    color: #fff;
+  }
+  &__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+  }
+  &__burger {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 30px;
+    height: 30px;
+  }
+  &__burger.is-active {
+    background: #ccc;
+
+  }
+
+  &__burger-item {
+    height: 4px;
+    width: 100%;
+    display: block;
+    background: #000;
+  }
+
+  @media (min-width: 1024px) {
+    position: fixed;
+    width: 100%;
+    &--right &__wrapper {
+      justify-content: flex-end;
+    }
+    &--right &__wrapper &__logo {
+      margin-right: auto;
+    }
+    &__nav {
+      display: flex;
+      flex-direction: row;
+      height: auto;
+      overflow: visible;
+      position: static;
+      background-image: none;
+      width: auto;
+    }
+    &__nav-sub {
+
+    }
+    &__li-sub {
+      padding: 0 20px;
+    }
+    &__li {
+      position: relative;
+    }
+    &__nav-sub {
+      position: absolute;
+      list-style: none;
+      top: 100%;
+      left: 0;
+      background: #f1f1f1;
+      padding: 0;
+      height: 0;
+      transition: .3s;
+      overflow: hidden;
+      width: 200px;
+    }
+    &__li:hover &__nav-sub {
+      height: auto;
+      padding: 20px 0;
+      box-shadow: 2px 5px 5px 3px rgba(0,0,0,0.15);
+
+    }
+    &__link {
+      padding: 5px 10px;
+    }
+    &__link:hover,
+    &__link-sub:hover {
+      text-decoration: underline;
+    }
+    &__burger {
+      display: none;
+    }
+  }
+}

@@ -1,0 +1,35 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  padding-top: 60px;
+  background: #f1f1f1;
+
+}
+img {
+  max-width: 100%;
+}
+a {
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+
+}
+.container {
+  width: 1024px;
+  max-width: 90%;
+  margin: 0 auto 20px auto;
+  padding: 20px;
+}
+.button {
+  background: blue;
+  color: #fff;
+  display: inline-block;
+  border: none;
+  border-radius: 10px;
+  padding: 5px 10px;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+h1 {
+  margin-bottom: 30px;
+}

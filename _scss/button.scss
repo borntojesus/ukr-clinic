@@ -1,0 +1,25 @@
+.button {
+  display: inline-flex;
+  justify-items: center;
+  align-items: center;
+  padding: 4px 8px;
+  background: $colorDefault;
+  cursor: pointer;
+  &:hover {
+    background: $colorDefaultHover;
+  }
+  &--light {
+    background: #fff;
+    color: $colorDefault;
+    &:hover {
+      background: #f1f1f1;
+    }
+  }
+  &--attention {
+    background: orange;
+  }
+  &--large {
+    padding: 4px 16px;
+    height: 40px;
+  }
+}
