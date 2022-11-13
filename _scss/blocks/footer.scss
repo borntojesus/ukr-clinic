@@ -1,4 +1,30 @@
 .footer {
   background: $colorDefault;
+  color: #fff;
   min-height: 400px;
+  a {
+    color: #fff;
+  }
+  p {
+    color: #fff
+  }
+   ul {
+     margin: 0;
+     padding: 0;
+   }
+  li {
+    list-style: none;
+  }
+  &__row {
+    display: flex;
+    margin-bottom: 30px;
+
+  }
+  &__col {
+    width: 33%;
+  }
+  &__copyright {
+    text-align: center;
+
+  }
 }
