@@ -1,13 +1,80 @@
----
-layout: post
-permalink: /blog/kak-ukrepit-immunitet/
-h1: Як зміцнити імунітет?
-title: Як зміцнити імунітет?
-description: Як зміцнити імунітет? Як зміцнити імунітет?
+<!doctype html>
+<html lang="ru-UA">
+<head>
+    <title>
+        Як зміцнити імунітет?
+    </title>
+    <link rel="stylesheet" href="/css/main.css">
+</head>
+<body>
+<!--navigation&#45;&#45;right-->
+<div class="navigation">
+    <div class="container">
+        <div class="navigation__wrapper">
+            <div class="navigation__logo">
+                <a href="/" class="navigation__logo">
+                    <img src="/images/logo-light.svg" alt="">
+                </a>
+            </div>
+            <ul class="navigation__nav">
+                <li class="navigation__li">
+                    <a href="/clinics/" class="navigation__link">
+                        Клініки
+                    </a>
+                </li>
+                <li class="navigation__li">
+                    <a href="/diagnostic/" class="navigation__link">
+                        Діагностичні центри
+                    </a>
+                </li>
+                <li class="navigation__li">
+                    <a href="/doctors" class="navigation__link">
+                        Лікарі
+                    </a>
+                </li>
+                <li class="navigation__li">
+                    <a href="/diseases/" class="navigation__link">
+                        Лікування
+                    </a>
+                </li>
+                <li class="navigation__li">
+                    <a href="/blog/" class="navigation__link">
+                        Статті
+                    </a>
+                </li>
+                <li class="navigation__li">
+                    <a href="/contact-us/" class="navigation__link">
+                        Контакти
+                    </a>
+                </li>
+            </ul>
+            <div class="navigation__cta">
+                <button class="button button--light">
+                    Зворотний зв'язок
+                </button>
+            </div>
+            <div class="navigation__burger">
+                <span class="navigation__burger-item"></span>
+                <span class="navigation__burger-item"></span>
+                <span class="navigation__burger-item"></span>
+            </div>
+        </div>
+    </div>
+</div>
 
----
 
-<div class="container">
+<script>
+    const hamburger = document.querySelector(".navigation__burger");
+    const navMenu = document.querySelector(".navigation");
+
+    hamburger.addEventListener("click", mobileMenu);
+
+    function mobileMenu() {
+        hamburger.classList.toggle("is-active");
+        navMenu.classList.toggle("is-active");
+    }
+</script>
+        <div class="container">
   <h1>
     Як зміцнити імунітет?
   </h1>
@@ -45,3 +112,70 @@ description: Як зміцнити імунітет? Як зміцнити ім�
     <li>&laquo;Вітамінізуйтесь&raquo;! Низький рівень вітаміну D та нестача регулярного надходження вітаміну С в достатній кількості роблять організм більш чутливим до вірусних загроз. На додачу до дефіцитів цих вітамінів ще більше послаблює імунітет нестача ряду важливих мікроелементів: цинку, заліза та ін. Збалансовано харчуйтесь та не нехтуйте додатковою суплементацією. Для коректного призначення препаратів зверніться до лікаря.</li>
   </ol>
 </div>
+<section class="footer">
+    <div class="container">
+        <a href="/" class="footer__logo">
+                <img src="/images/logo-light.svg" alt="">
+        </a>
+        <div class="footer__row">
+            <div class="footer__col">
+                <h3 class="h3">
+                    СЕРВИС
+                </h3>
+                <ul>
+                    <li>
+                        <a href="#">О нас</a>
+                    </li>
+                    <li>
+                        <a href="#">О рейтинге</a>
+                    </li>
+                    <li>
+                        <a href="#">Партнерам</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer__col">
+                <h3 class="h3">
+                    ПАЦИЕНТУ
+                </h3>
+                <ul>
+                    <li>
+                        <a href="#">О нас</a>
+                    </li>
+                    <li>
+                        <a href="#">О рейтинге</a>
+                    </li>
+                    <li>
+                        <a href="#">Партнерам</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer__col">
+                <h3 class="h3">
+                    КОТАКТЫ
+                </h3>
+                <ul>
+                    <li>
+                        <a href="#">О нас</a>
+                    </li>
+                    <li>
+                        <a href="#">О рейтинге</a>
+                    </li>
+                    <li>
+                        <a href="#">Партнерам</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer__copyright text">
+            <p>
+                © Ukr Clinic, 2022 | Использование материалов разрешено только при наличии активной ссылки на источник
+            </p>
+        </div>
+    </div>
+</section>
+</body>
+</html>
+
+
+
