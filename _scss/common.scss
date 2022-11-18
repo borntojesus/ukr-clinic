@@ -11,6 +11,10 @@ a {
   text-decoration: none;
   font-family: 'Roboto', sans-serif;
 
+
+}
+* {
+  box-sizing: border-box;
 }
 .container {
   width: 1024px;
@@ -32,4 +36,8 @@ h2 {
 }
 h1 {
   margin-bottom: 30px;
+}
+.is-modal {
+  padding-right: 17px;
+  overflow: hidden;
 }

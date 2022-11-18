@@ -1,0 +1,41 @@
+.modal {
+  position: fixed;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 100;
+  display: none;
+  &.is-active {
+    display: flex;
+
+  }
+  &__blur {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.4);
+  }
+  &__container {
+    background: #fff;
+    border-radius: 10px;
+    max-width: 800px;
+    width: calc(100% - 60px);
+    padding: 60px 30px;
+    position: relative;
+
+  }
+  &__hide {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background: none;
+    color: #000;
+    border: none;
+
+  }
+}
