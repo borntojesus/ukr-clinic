@@ -6,11 +6,14 @@
     </title>
     <meta name="description" content="{{ page.description }}">
     <link rel="stylesheet" href="/css/main.css">
+    {% include meta/head.html %}
 </head>
-<body class="">
+<body id="body">
+{% include meta/after-body.html %}
 {% include navigation.html %}
         {{ content }}
 {% include footer.html %}
+{% include meta/before-end-body.html %}
 </body>
 </html>
 
