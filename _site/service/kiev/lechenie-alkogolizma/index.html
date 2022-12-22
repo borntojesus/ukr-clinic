@@ -877,8 +877,56 @@
 </section>
 
 
+
+<!-- The Modal -->
+<div id="contentPopup" class="popup-wrapper">
+
+    <!-- Modal content -->
+    <div class="popup-content">
+        <span class="close">X</span>
+        <div class="lang-wrapper">
+
+            Оберіть мовну версію сайту.
+            За замовчуванням Ukr Clinic відображається українською мовою.
+            <br/>
+            <br/>
+            <div class="btn-lang-wrapper">
+                <button class="btn-ru" onclick="funcRu()">Перейти на російську</button>
+                <button class="btn-ua" onclick="funcUa()">Залишитись на українській</button>
+            </div>
+            <br/>
+            <br/>
+            <b> Слава Україні! Героям слава!</b>
+            <br/>
+            Ви будете перенаправлені на українську версію сайту через
+            <span id="countdowntimer">10</span> секунд
+        </div>
+    </div>
+
+</div>
+
+
+<div class="cookies" id="cookies" style="display: none">
+    <div class="cookies__text">
+        We use cookies to make sure you can have the best experience on our website. If you continue to use this site we assume that you will be happy with it.
+    </div>
+    <button class="button cookies__button">
+        Ok
+    </button>
+</div>
+
+
 <!--before-end-boody.html-->
+
+<script
+        src="https://code.jquery.com/jquery-3.6.2.min.js"
+        integrity="sha256-2krYZKh//PcchRtd+H+VyyQoZ/e3EcrkxhM8ycwASPA="
+        crossorigin="anonymous"></script>
+<script src="/js/faq.js"></script>
+<script src="/js/modal-language.js"></script>
 <script src="/js/modal.js"></script>
+<script src="/js/cookies.js"></script>
+
 </body>
 </html>
 
